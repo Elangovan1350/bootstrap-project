@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./node_modules/bootstrap/dist/css/bootstrap.css"
+    />
+  </head>
+  <body>
+    <!-- navbar start -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+      <div class="container-fluid row">
+        <a class="navbar-brand mx-0 col-4" href="#"
+          ><img
+            src="https://www.achieversit.com/assets/images/logo-white.png"
+            alt=""
+        /></a>
+        <button
+          class="navbar-toggler col-6 w-auto p-3 d-inline-block d-lg-none"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-between col-6 fs-5 fw-medium"
+          id="navbarSupportedContent"
+        >
+          <ul
+            class="navbar-nav me-auto mb-2 mb-lg-0 text-capitalize align-items-center col-lg-9 col-12"
+          >
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">categories</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">reviews</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">blog's</a>
+            </li>
+          </ul>
+          <ul
+            class="navbar-nav me-auto mb-2 mb-lg-0 text-capitalize col-lg-3 col-12 justify-content-lg-end justify-content-center align-items-center flex-row"
+          >
+            <li class="nav-item">
+              <a class="nav-link bg-body-secondary mx-2 p-2" href="#"
+                ><i class="fa-solid fa-magnifying-glass"></i
+              ></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link bg-body-secondary p-2" href="#"
+                ><i class="fa-solid fa-cart-shopping"></i
+              ></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link bg-body-secondary mx-2 p-2" href="#"
+                ><i class="fa-solid fa-user"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- navbar end -->
+    <!-- image slide start -->
+    <div
+      id="carouselExampleIndicators"
+      class="carousel slide position-relative"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner bg-body-secondary" style="height: 500px">
+        <div class="carousel-item active h-100">
+          <img
+            src="./image/pexels-kelly-3030268.jpg"
+            class="d-block h-100 w-100 object-fit-cover opacity-75"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item h-100">
+          <img
+            src="./image/pexels-pixabay-259526.jpg"
+            class="d-block h-100 w-100 object-fit-cover opacity-75"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item h-100">
+          <img
+            src="./image/pexels-simon-berger-931881.jpg"
+            class="d-block h-100 w-100 object-fit-cover opacity-75"
+            alt="..."
+          />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev"
+      >
+        <span
+          class="fs-1 opacity-100"
+          style="color: rgb(0, 0, 0)"
+          aria-hidden="true"
+          ><i class="fa-solid fa-arrow-left fa-lg"></i
+        ></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next"
+      >
+        <span
+          class="fs-1 opacity-100"
+          style="color: rgb(0, 0, 0)"
+          aria-hidden="true"
+          ><i class="fa-solid fa-arrow-right fa-lg"></i
+        ></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+      <div class="position-absolute top-0 text-capitalize text-center d-flex justify-content-center align-items-center flex-column  h-100 w-100">
+        <h1 class="fw-bolder opacity-100 " style="color: rgb(255, 166, 0);">fresh and organic product for you</h1>
+        <p class="fs-3 w-75 text-white text-center">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic amet
+          deserunt unde eum error dicta natus optio dolor harum magni.
+        </p>
+        <button class="btn btn-primary fs-2 px-5 py-2 fw-medium text-capitalize">show now</button>
+      </div>
+    </div>
+    <!-- image slide end -->
+
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+  </body>
+</html>
